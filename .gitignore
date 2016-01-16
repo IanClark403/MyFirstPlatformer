@@ -46,11 +46,29 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-#Standard Unity Files
-.Assests
-Standard_Assets
-Editor
-.Library
-.obj
-.Temp
-.ProjectSettings
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Obj/
+UnityGenerated/
+Library/
+Assets/AssetStoreTools*
+MyFirstPlatformer_Data/
+*.exe
+*.pdb
+
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj

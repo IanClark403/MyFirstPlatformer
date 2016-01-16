@@ -1262,6 +1262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   quitMenu: {fileID: 1848389158}
+  volumeSlider: {fileID: 1964320881}
   volumeMenu: {fileID: 1456029245}
   startText: {fileID: 292643212}
   exitText: {fileID: 369908962}
@@ -1637,6 +1638,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 469208882}
+  - {fileID: 1929525306}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_AnchorMin: {x: 0, y: 0}
@@ -2141,11 +2143,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1929525303}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -83, y: -39.7, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 1964320880}
-  m_RootOrder: 3
+  m_Father: {fileID: 1456029246}
+  m_RootOrder: 1
 --- !u!1 &1964320879
 GameObject:
   m_ObjectHideFlags: 0
@@ -2156,7 +2158,7 @@ GameObject:
   - 224: {fileID: 1964320880}
   - 114: {fileID: 1964320881}
   m_Layer: 5
-  m_Name: Slider
+  m_Name: Volume Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2175,7 +2177,6 @@ RectTransform:
   - {fileID: 1669800214}
   - {fileID: 110229619}
   - {fileID: 1884080412}
-  - {fileID: 1929525306}
   m_Father: {fileID: 469208882}
   m_RootOrder: 1
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -2229,9 +2230,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1929525304}
-        m_MethodName: set_volume
-        m_Mode: 0
+      - m_Target: {fileID: 1066730675}
+        m_MethodName: VolumeControl
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

@@ -8,9 +8,9 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: Sky
   m_Shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _SUNDISK_SIMPLE
   m_LightmapFlags: 5
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 1000
   stringTagMap: {}
   m_SavedProperties:
     serializedVersion: 2
@@ -32,6 +32,13 @@ Material:
       data:
         first:
           name: _DetailNormalMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Tex
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
@@ -136,19 +143,19 @@ Material:
       data:
         first:
           name: _Exposure
-        second: 1
+        second: 2.91
       data:
         first:
           name: _SunDisk
-        second: 2
+        second: 1
       data:
         first:
           name: _SunSize
-        second: 0.034
+        second: 0.05
       data:
         first:
           name: _AtmosphereThickness
-        second: 1
+        second: 5
       data:
         first:
           name: _Parallax
@@ -205,7 +212,7 @@ Material:
       data:
         first:
           name: _GroundColor
-        second: {r: 0.369, g: 0.349, b: 0.341, a: 1}
+        second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
           name: _Tint

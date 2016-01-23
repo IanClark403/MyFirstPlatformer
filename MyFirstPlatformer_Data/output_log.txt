@@ -5,14 +5,6 @@ Direct3D:
     Renderer: AMD Radeon R9 200 Series (ID=0x679a)
     Vendor:   ATI
     VRAM:     3054 MB
-Default GameObject Tag: 0 already registered
- 
-(Filename:  Line: 88)
-
-Default GameObject Tag: 0 already registered
- 
-(Filename:  Line: 88)
-
 Begin MonoManager ReloadAssembly
 Platform assembly: E:\Projects\Unity\myfirstgame\MyFirstPlatformer_Data\Managed\UnityEngine.dll (this message is harmless)
 Loading E:\Projects\Unity\myfirstgame\MyFirstPlatformer_Data\Managed\UnityEngine.dll into Unity Child Domain
@@ -20,32 +12,26 @@ Platform assembly: E:\Projects\Unity\myfirstgame\MyFirstPlatformer_Data\Managed\
 Loading E:\Projects\Unity\myfirstgame\MyFirstPlatformer_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
 Platform assembly: E:\Projects\Unity\myfirstgame\MyFirstPlatformer_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading E:\Projects\Unity\myfirstgame\MyFirstPlatformer_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: E:\Projects\Unity\myfirstgame\MyFirstPlatformer_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
-Loading E:\Projects\Unity\myfirstgame\MyFirstPlatformer_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
 Platform assembly: E:\Projects\Unity\myfirstgame\MyFirstPlatformer_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading E:\Projects\Unity\myfirstgame\MyFirstPlatformer_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: E:\Projects\Unity\myfirstgame\MyFirstPlatformer_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading E:\Projects\Unity\myfirstgame\MyFirstPlatformer_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: E:\Projects\Unity\myfirstgame\MyFirstPlatformer_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading E:\Projects\Unity\myfirstgame\MyFirstPlatformer_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: E:\Projects\Unity\myfirstgame\MyFirstPlatformer_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading E:\Projects\Unity\myfirstgame\MyFirstPlatformer_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.035 seconds
+- Completed reload, in  0.081 seconds
 Platform assembly: E:\Projects\Unity\myfirstgame\MyFirstPlatformer_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: E:\Projects\Unity\myfirstgame\MyFirstPlatformer_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.474112 ms
+UnloadTime: 0.397055 ms
 NullReferenceException: Object reference not set to an instance of an object
   at menuScript.Start () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2a38 -> priority: 1 
-  Thread -> id: e24 -> priority: 1 
+  Thread -> id: a58 -> priority: 1 
+  Thread -> id: 9c8 -> priority: 1 
 NullReferenceException: Object reference not set to an instance of an object
   at menuScript.VolumePress () [0x00000] in <filename unknown>:0 
   at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
@@ -93,9 +79,14 @@ UnityEngine.EventSystems.EventSystem:Update()
 (Filename:  Line: -1)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 5.285889 ms
+UnloadTime: 3.246333 ms
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1507.
-Total: 0.299776 ms (FindLiveObjects: 0.050432 ms CreateObjectMapping: 0.021760 ms MarkObjects: 0.218624 ms  DeleteObjects: 0.008448 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1779.
+Total: 0.554751 ms (FindLiveObjects: 0.091903 ms CreateObjectMapping: 0.073471 ms MarkObjects: 0.373247 ms  DeleteObjects: 0.015359 ms)
 
-Platform assembly: E:\Projects\Unity\myfirstgame\MyFirstPlatformer_Data\Managed\Boo.Lang.dll (this message is harmless)
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.926654 ms
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2107.
+Total: 1.306366 ms (FindLiveObjects: 0.234495 ms CreateObjectMapping: 0.140031 ms MarkObjects: 0.875519 ms  DeleteObjects: 0.055039 ms)
+

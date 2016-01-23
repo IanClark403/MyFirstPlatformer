@@ -5,12 +5,18 @@ using System.Collections;
 public class gameScore : MonoBehaviour {
 
 	public Text scoreText;
-	public GameObject gem;
 	private int score;
 	// Use this for initialization
 	void Start () {
 
-		score = 0;
+		if (PlayerPrefs.GetInt ("score") == 0) 
+		{
+			score = 0;
+		}
+		if (PlayerPrefs.GetInt ("score") != 0) 
+		{
+			score = PlayerPrefs.GetInt("score");
+		}
 		UpdateScore ();
 	}
 
@@ -23,11 +29,7 @@ public class gameScore : MonoBehaviour {
 	void UpdateScore ()
 	{
 		scoreText.text = "Score: " + score;
+		PlayerPrefs.SetInt("score", score);
 	}
 		
-
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }

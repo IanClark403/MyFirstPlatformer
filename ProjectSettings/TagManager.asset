@@ -4,8 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - level001death
+  - death
   - level001finish
+  - level002finish
+  - level003finish
+  - level004finish
+  - level005finish
   layers:
   - Default
   - TransparentFX
